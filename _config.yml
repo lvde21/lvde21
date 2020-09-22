@@ -1,0 +1,14 @@
+# Site settings
+title: Lala's Website
+tag_text: Lala's Website
+description: Simple website containing Lala's resume. More to be added in the future hopefully.
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
